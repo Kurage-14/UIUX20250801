@@ -22,6 +22,10 @@
   top: 54px;
 }
 
+.bw2px {
+  border-width: 2px !important;
+}
+
 .navbar .container .navbar-collapse .search {
   width: 200px;
   transition: all 0.4s;
