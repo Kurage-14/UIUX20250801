@@ -41,9 +41,17 @@
                 </div>
             </div>
 
-            <!-- 按鈕群組與開合 -->
+
             <div class="btn-group-vertical mt-1 d-block">
-                <div class="btn btn-info d-block">選項 3-1</div>
+                <div class="btn btn-info d-block" data-bs-toggle="collapse" data-bs-target="#option3">選項 3-1</div>
+                <!-- 3-1 開合出另一個 card 做為次選項 -->
+                <div class="collapse" id="option3">
+                    <div class="card rounded-0">
+                        <div class="card-body p-1">
+                            <div class="btn btn-sm btn-info d-block">選項 3-2</div>
+                        </div>
+                    </div>
+                </div>
                 <div class="btn btn-info d-block">選項 3-2</div>
                 <div class="btn btn-info d-block">選項 3-3</div>
                 <div class="btn btn-info d-block">選項 3-4</div>
