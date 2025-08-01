@@ -2,6 +2,14 @@
   height: 700px;
 }
 
+.h30px {
+  height: 30px;
+}
+
+.w30px {
+  width: 30px;
+}
+
 .min100vh {
   min-height: 100vh;
 }/*# sourceMappingURL=pageContent2.css.map */
