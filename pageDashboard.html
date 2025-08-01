@@ -16,10 +16,16 @@
 <body class="d-flex align-items-start">
     <nav class="collapse collapse-horizontal show h-100 bg-secondary-subtle" id="collapseWidthExample">
         <div class="w250px p-1">
-            <!-- 建立長在開合面版右邊的 X 控制鈕 -->
             <div class="d-flex">
                 <button data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" type="button"
                     class="btn-close ms-auto" aria-label="Close"></button>
+            </div>
+            <!-- 垂直開合 -->
+            <!-- 控制方要有 data-bs-toggle 行為, data-bs-target 對象 -->
+            <div class="btn btn-primary d-block" data-bs-toggle="collapse" data-bs-target="#option1">選項1</div>
+            <!-- 被控制方要有 collapse 樣式和 id  -->
+            <div class="collapse" id="option1">
+                123
             </div>
 
         </div>
