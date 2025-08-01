@@ -1,9 +1,17 @@
+.h150px {
+  height: 150px;
+}
+
 .h250px {
   height: 250px;
 }
 
 .h300px {
   height: 300px;
+}
+
+.w150px {
+  width: 150px;
 }
 
 .min200vh {
