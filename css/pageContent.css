@@ -1,5 +1,9 @@
-.h200px {
-  height: 200px;
+.h250px {
+  height: 250px;
+}
+
+.min200vh {
+  min-height: 200vh;
 }
 
 .navbar .container .navbar-collapse .search {
