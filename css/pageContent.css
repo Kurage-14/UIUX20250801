@@ -6,6 +6,10 @@
   min-height: 200vh;
 }
 
+.top54 {
+  top: 54px;
+}
+
 .navbar .container .navbar-collapse .search {
   width: 200px;
   transition: all 0.4s;
