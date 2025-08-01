@@ -2,10 +2,16 @@
   height: 200px;
 }
 
-input::-moz-placeholder {
-  color: #575555 !important;
+.navbar .container .navbar-collapse .search {
+  width: 200px;
+  transition: all 0.4s;
 }
-
-input::placeholder {
-  color: #575555 !important;
+.navbar .container .navbar-collapse .search:focus-within {
+  width: 600px;
+}
+.navbar .container .navbar-collapse .search input::-moz-placeholder {
+  color: #575555;
+}
+.navbar .container .navbar-collapse .search input::placeholder {
+  color: #575555;
 }/*# sourceMappingURL=pageContent.css.map */

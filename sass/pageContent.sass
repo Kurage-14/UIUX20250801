@@ -2,6 +2,14 @@
 
 @include hnpx(200)
 
-input
-    &::placeholder
-        color: #575555 !important
+.navbar
+    .container
+        .navbar-collapse
+            .search
+                width: 200px
+                transition: all 0.4s
+                &:focus-within
+                    width: 600px
+                input
+                    &::placeholder
+                        color: #575555
