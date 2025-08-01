@@ -14,4 +14,10 @@
 }
 .navbar .container .navbar-collapse .search input::placeholder {
   color: #575555;
+}
+.navbar .container .navbar-collapse .btn-1 {
+  color: #b7b7b7;
+}
+.navbar .container .navbar-collapse .btn-1:hover {
+  color: #ffffff;
 }/*# sourceMappingURL=pageContent.css.map */
