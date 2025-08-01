@@ -34,6 +34,13 @@
   color: #ffffff;
 }
 
+header {
+  background-image: url(https://images.pexels.com/photos/1287124/pexels-photo-1287124.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 aside .container .nav .nav-link.active {
   border-bottom: 2px solid #0962f2;
 }/*# sourceMappingURL=pageContent.css.map */
