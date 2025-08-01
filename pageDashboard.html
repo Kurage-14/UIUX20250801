@@ -14,12 +14,14 @@
 </head>
 
 <body class="d-flex align-items-start">
-    <!-- collapse 控制動畫和行為 -->
-    <!-- collapse-horizontal 是控制方向, 兩個都要加, 才會搭配 data-bs-toggle = collapse 而正確的被控制 -->
-    <!-- collapse 是閤, 所以預設是關閉著, 要加上 show 就會是預設打開 -->
     <nav class="collapse collapse-horizontal show h-100 bg-secondary-subtle" id="collapseWidthExample">
-        <div class="w250px">
-            1
+        <div class="w250px p-1">
+            <!-- 建立長在開合面版右邊的 X 控制鈕 -->
+            <div class="d-flex">
+                <button data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" type="button"
+                    class="btn-close ms-auto" aria-label="Close"></button>
+            </div>
+
         </div>
     </nav>
     <main class="bg-secondary h-100 flex-fill p-3">
